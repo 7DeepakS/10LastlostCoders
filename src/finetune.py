@@ -9,7 +9,7 @@ import time
 def load_data():
     """Load preprocessed queries."""
     start_time = time.time()
-    queries_df = pd.read_csv('data/processed/queries.csv')
+    queries_df = pd.read_csv('data/processed/que.csv')
     print(f"Loaded queries: {len(queries_df)} records in {time.time() - start_time:.2f} seconds")
     return queries_df
 
@@ -46,12 +46,12 @@ def finetune_model():
     # Fine-tune
     model.fit(
         train_objectives=[(train_dataloader, train_loss)],
-        epochs=3,  # Increased for better accuracy
+        epochs=200,  # Increased for better accuracy
         warmup_steps=100,
-        output_path='models/finetuned_minilm_v2',
+        output_path='models/finetuned_minilm_v4',
         show_progress_bar=True
     )
-    print(f"Model fine-tuned and saved to models/finetuned_minilm_v2 in {time.time() - start_time:.2f} seconds")
+    print(f"Model fine-tuned and saved to models/finetuned_minilm_v4 in {time.time() - start_time:.2f} seconds")
 
 if __name__ == '__main__':
     os.makedirs('models', exist_ok=True)

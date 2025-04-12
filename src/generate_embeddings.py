@@ -29,7 +29,7 @@ def process_and_save_embeddings():
     """Generate and save embeddings for all metadata."""
     start_time = time.time()
     # Load fine-tuned model
-    model = SentenceTransformer('models/finetuned_minilm')
+    model = SentenceTransformer('models/finetuned_minilm_v4')
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     print(f"Using device: {device}")
     model = model.to(device)
