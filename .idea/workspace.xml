@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b64a090a-8246-4e90-8cd9-10b519595fb7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/processed/stocks.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/finetune.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/finetune.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generate_embeddings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/generate_embeddings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +103,8 @@
       <workItem from="1744394344152" duration="19000" />
       <workItem from="1744407044216" duration="345000" />
       <workItem from="1744420217341" duration="433000" />
-      <workItem from="1744427186849" duration="364000" />
+      <workItem from="1744427186849" duration="2479000" />
+      <workItem from="1744430045713" duration="409000" />
     </task>
     <servers />
   </component>
