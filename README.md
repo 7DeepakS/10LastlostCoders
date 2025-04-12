@@ -47,7 +47,7 @@ python -m venv .env
 .env\Scripts\activate  # Windows
 
 3. **Install Dependencies:requirements.txt with:**
-4. **Unzip holdings_index.faiss.zip**
+4. **Unzip all data files**
 5. **Launch Web App:  python src/app.py**
 6. **Feature:** Search:  Enter queries like "sbi debt funds" or "materials stocks".
 View top 5 results per category (mutual funds, stocks, holdings) in a card-based layout.
